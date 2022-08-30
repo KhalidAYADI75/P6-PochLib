@@ -1,1 +1,83 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background: white;
+  font-family: Trirong, sans-serif;
+}
+
+.title {
+  background: #F0F0F0;
+  color: grey;
+  border-bottom: 2px solid grey;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+#myBooks {
+  text-align: center;
+}
+
+#resultSearch {
+  border-top: 2px solid grey;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.btn, .btn-cancel {
+  background-color: green;
+  height: 4em;
+  width: 12em;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1em;
+  white-space: pre;
+}
+
+.btn-cancel {
+  background-color: red;
+}
+
+#divformsearch {
+  text-align: left;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+:root {
+  --columns-row: 2;
+}
+
+.grid {
+  display: grid;
+}
+
+.divparent {
+  border: 1px solid grey;
+  padding: 2em;
+  text-align: left;
+}
+
+.image {
+  height: 12em;
+  display: block;
+  margin: 2em auto;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1300px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.iconstyle {
+  color: green;
+  float: right;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
