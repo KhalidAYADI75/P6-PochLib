@@ -1,4 +1,5 @@
 //Initialisation
+DomConstructor.addDomElements();
 const button_addbook=document.getElementById("bt_add");
 const button_search=document.getElementById("bt_search");
 const button_cancel=document.getElementById("bt_cancel");
@@ -17,3 +18,4 @@ button_cancel.addEventListener('click',function() {
 button_search.addEventListener('click',function(event) {
    Search.clickForSearch(event);
 });
+
