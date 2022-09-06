@@ -10,4 +10,3 @@ online before picking them up at the bookstore.
 
 **Installing the app**
 - All the project is in the folder PochLib .
-- The release V1.0 on github is the final release to be used.
