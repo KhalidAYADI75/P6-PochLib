@@ -1,6 +1,7 @@
 class DomManipulator {
 
     static cellsConstruction(books) {
+        document.getElementById("container").innerHTML='';
         for (let i=0;i<books.allBooks.length;i++) {
             var div=DomManipulator.cellConstruction('search',books.allBooks[i]);
             document.getElementById("container").appendChild(div);
