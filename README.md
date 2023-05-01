@@ -3,7 +3,7 @@
 Poch'Lib est une application créée pour une librairie familiale 'la plume enchantée' qui permet de rechercher des livres en ligne avant de venir les chercher en librairie.
 
 **Les technologies**<br/>
--Html<br/>
+- Html<br/>
 - Sass<br/>
 - Javascript<br/>
 
